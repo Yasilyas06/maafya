@@ -1,0 +1,159 @@
+<!-- <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maaf Sayang</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Maaf, Yaaa Sayangg....</h1>
+    <p>Hai tiasss,</p>
+    <p>Maaf yaa kalooo  kemarin sering ninggalin kamuuu.</p>
+    <p>Maaf yaa kalo menurut kamu akuu belum berubahh,maaf </p>
+    <p>Bolehkah aku menebus kesalahan ini dan memperbaiki semuanya?</p>
+    <p class="heart">❤️</p>
+    <p class="signature">Dengan cinta, <br> [Ilyasss]</p>
+  </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maafkan Aku Yaa Sayangg</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #c2f7fb, #a6c1ee);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 20px;
+      padding: 30px;
+      text-align: center;
+      backdrop-filter: blur(12px);
+      max-width: 600px;
+      width: 100%;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+      animation: fadeIn 2s ease;
+    }
+
+    .heart {
+      font-size: 3rem;
+      animation: pulse 1.5s infinite;
+    }
+
+    h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 2.8rem;
+      margin: 20px 0;
+      color: #fff;
+      text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 12px 30px;
+      font-size: 1rem;
+      font-weight: bold;
+      background: #fff;
+      color: #a64ac9;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+    }
+
+    button:hover {
+      background: #ffd6f3;
+      color: #6a0572;
+      transform: scale(1.05);
+    }
+
+    #msg {
+      display: none;
+      margin-top: 20px;
+      font-weight: bold;
+      animation: fadeIn 1s ease;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="heart">💗</div>
+    <h1>Maafkan Aku, Sayang</h1>
+    <p>
+      Iyaa aku salah kemarin ga nepatin janjikuu,maaff kalooo kamuu nungguin ditamann.
+      <br><br>
+      Maaf kalo aku kemarin asik sendiri sama duniakuuu,tapi aku bener" ingett kamuu kok, meskipun aku kek keasikan sama temennku.
+      <br><br>
+      Maafin  aku yaa sayang. Maaff buatt semuanyaa yaaa. 💖
+    </p>
+    <button onclick="showMessage()">Aku kangen kamu 🥺</button>
+    <div id="msg">
+      <p>🥹 Peluk virtual dikirim...
+        <br>
+         peluk virtual duluu yaaa.</p>
+      <p> Kaloo mauu pelukk benerann ntarr ketemuu makanyaa hahahahaha</p>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script>
+    function showMessage() {
+      document.getElementById("msg").style.display = "block";
+    }
+  </script>
+
+  <!-- Musik opsional -->
+  <!--
+  <audio autoplay loop>
+    <source src="lagu-romantis.mp3" type="audio/mpeg">
+  </audio>
+  -->
+</body>
+</html>
